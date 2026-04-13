@@ -91,11 +91,11 @@ Any 10 or 12-digit number that passes the Luhn checksum works. Example: `1985070
 - Extra skills: [`grill-me`](https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md)
 
 ## What I'd improve with more time
-
+- Having a proper memory solution and not storing the ssn in plain text
 - WebSocket / SSE instead of polling for push-based updates
-- Session expiry and cleanup
-- Proper error boundaries in React
-- Frontend unit + E2E tests (Playwright)
-- Responsive / mobile-first CSS
-- Accessibility audit (aria attributes, keyboard navigation, focus management)
-- More robust SSN validation. I kept it minimal here to avoid pulling in a lib like [`personnummer`](https://www.npmjs.com/package/personnummer).
+- Session expiry and cleanup.
+- Some more test, maybe some FE unit but most importantly some E2E tests (Playwright)
+- Improve the design.
+- Accessibility eventhough semantic HTML takes us long (aria attributes, keyboard navigation, focus management)
+- More robust SSN validation. I kept it minimal here but could investigate in how a lib like [`personnummer`](https://www.npmjs.com/package/personnummer) does it.
+- And so much more :)
