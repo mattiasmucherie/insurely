@@ -33,7 +33,7 @@ Open http://localhost:5173
 
 ## Tests
 
-Backend has 31 unit + HTTP tests covering validation, session store, QR rotation, and all endpoints.
+Backend has unit + HTTP tests covering validation, session store, QR rotation, and all endpoints.
 
 ```bash
 cd server && npm test
@@ -90,7 +90,7 @@ Any 10 or 12-digit number that passes the Luhn checksum works. Example: `1985070
 - Using [`compound engineering`](https://github.com/EveryInc/compound-engineering-plugin)
 - Extra skills: [`grill-me`](https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md)
 
-## What I'd improve with more time
+## What I'd improve if I would put more time:
 - Having a proper memory solution and not storing the ssn in plain text
 - WebSocket / SSE instead of polling for push-based updates
 - Session expiry and cleanup.
