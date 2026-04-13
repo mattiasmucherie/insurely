@@ -247,6 +247,11 @@ input[type="text"].error {
   border-bottom: none;
 }
 
+.holdings-table th:not(:last-child),
+.holdings-table td:not(:last-child) {
+  padding-right: 0.75rem;
+}
+
 .holdings-table .value-cell {
   text-align: right;
   font-variant-numeric: tabular-nums;
