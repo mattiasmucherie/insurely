@@ -12,6 +12,10 @@ Simulated BankID login flow that collects mock investment holdings from a provid
 cd server && npm install
 cd ../client && npm install
 ```
+or
+```bash
+npm run install:all
+```
 
 ## Running
 
@@ -81,6 +85,11 @@ Any 10 or 12-digit number that passes the Luhn checksum works. Example: `1985070
 - No client-side routing (single-page state machine)
 - No frontend tests
 
+## AI usage
+- Using claude code
+- Using [`compound engineering`](https://github.com/EveryInc/compound-engineering-plugin)
+- Extra skills: [`grill-me`](https://github.com/mattpocock/skills/blob/main/grill-me/SKILL.md)
+
 ## What I'd improve with more time
 
 - WebSocket / SSE instead of polling for push-based updates
@@ -89,4 +98,4 @@ Any 10 or 12-digit number that passes the Luhn checksum works. Example: `1985070
 - Frontend unit + E2E tests (Playwright)
 - Responsive / mobile-first CSS
 - Accessibility audit (aria attributes, keyboard navigation, focus management)
-- More robust SSN validation (date consistency, coordination numbers, etc.) — kept minimal here to avoid pulling in the `personnummer` lib
+- More robust SSN validation. I kept it minimal here to avoid pulling in a lib like [`personnummer`](https://www.npmjs.com/package/personnummer).
