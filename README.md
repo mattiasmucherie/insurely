@@ -4,7 +4,7 @@ Simulated BankID login flow that collects mock investment holdings from a provid
 
 ## Prerequisites
 
-- Node.js 18+
+- Node.js 18+ but I used Node 24.10.0
 
 ## Setup
 
